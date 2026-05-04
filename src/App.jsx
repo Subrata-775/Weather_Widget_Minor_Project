@@ -5,6 +5,7 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import PrimarySearchAppBar from '../src/Components/NavBar'
 import MediaCard from '../src/Components/MediaCard'
+import SearchBox from './Components/SearchBox'
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
     <>
       <PrimarySearchAppBar />
       <MediaCard />
+      <SearchBox />
+
 
     </>
 
